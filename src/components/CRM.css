@@ -1,0 +1,23 @@
+.crm-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .image-container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
